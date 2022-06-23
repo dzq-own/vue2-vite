@@ -1,0 +1,61 @@
+{
+  "name": "binfo-vue-tpl",
+  "version": "1.0.0",
+  "author": "江苏秉信科技有限公司 - 电力调度业务技术部",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev:vite": "vite",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@binfo-teamfe/element-ext": "git+http://192.168.1.234:10101/gitea/TeamFE/binfo-teamfe-element-ext.git",
+    "@binfo-teamfe/vxe-modal": "git+http://192.168.1.234:10101/gitea/wangding/binfo-teamfe-vxe-modal.git",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "dayjs": "^1.10.4",
+    "element-ui": "^2.15.6",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "vite-plugin-require": "0.0.7",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.2",
+    "vxe-table": "^3.3.9",
+    "xe-utils": "^3.3.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "filemanager-webpack-plugin": "^6.1.7",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^8.0.2",
+    "vite": "^2.6.10",
+    "vite-plugin-vue2": "^1.9.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
