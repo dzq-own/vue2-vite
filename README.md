@@ -1,4 +1,4 @@
-# binfo-vue-tpl
+# vue2-vite
 
 > 开发模式推荐使用vite运行，打包必需使用vue-cli
 
